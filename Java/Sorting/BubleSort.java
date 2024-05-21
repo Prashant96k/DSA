@@ -7,7 +7,7 @@ public class BubleSort {
         
         for (int i = 0; i < arr.length; i++) {  //nmber of elements
 
-            for (int j = 0; j < arr.length - 1; j++) { //how many times swapping the elemnet
+            for (int j = 0; j < arr.length -i- 1; j++) { //how many times swapping the elemnet
 
                 if (arr[j] > arr[j+ 1]) { //codition true Swap;
 
